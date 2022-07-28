@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    /* Gives the header of the page some style and background color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -23,10 +24,12 @@ h1 {
 }
 
 h1 .seo {
+    /* Gives the letters SEO a different color so that they stand out */
     color: rgb(192, 192, 192);
 }
 
 nav {
+    /* describes how the nav bar will appear and where it will go on the page */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,24 +38,29 @@ nav {
 }
 
 nav ul {
+    /* removes bullet points from list */
     list-style-type: none;
 }
 
 nav ul li {
+    /* makes list items appear side by side */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* makes links white and removes the underline for the link  */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* sets paragraph font sixe to 16 px */
     font-size: 16px;
 }
 
 .hero {
+    /* creates background image for home screen  */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,11 +70,13 @@ p {
 }
 
 .float-left {
+    /* puts image on left of content box, this is in content section */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* puts image on right of content box, this is in content section */
     float: right;
     margin-left: 25px;
 }
@@ -99,6 +109,7 @@ h2 {
 }
 
 .benefits {
+    /* Describes how the section with the class benefits will appear, provides a font , background color, location on the page... ect */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -110,6 +121,7 @@ h2 {
 }
 
 .benefitdivs {
+    /* makes text white for benefitdivs and places margin at bottom of content */
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -120,12 +132,14 @@ h3 {
 }
 
 .benefitdivs img {
+    /* displays images in class="benefitdivs" as blocks with a margin and also limits their width */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 footer {
+    /* Formats the footer and places it in the center of page */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
