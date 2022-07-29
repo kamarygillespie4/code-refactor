@@ -10,7 +10,7 @@
 - I also just tried to generally simplify the code as much as I could by removing uneccesary selectors.
 ## Screenshot of Working Webpage
 
-![Screenshot of working webpage](assets/images/assets/images/workingwebpage.jpg)
+![Screenshot of working webpage](assets/images/workingwebpage.jpg)
 
 ## Link to Deployed Application
 
